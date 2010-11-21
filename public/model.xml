@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+	<services>
+		<remoting>
+			<service id="rubyamf" gateway="http://localhost:3000/rubyamf/gateway">
+				<call id="getWidgets" endpoint="WidgetsController" method="index" />
+			</service>
+		</remoting>
+	</services>
+</model>
